@@ -1,0 +1,4 @@
+These files are otherwise equal to tap-windows-9.9.2 used in openvpn-2.3.0, but 
+use a more recent NSI installer script that fixes this issue:
+
+<https://community.openvpn.net/openvpn/ticket/255>

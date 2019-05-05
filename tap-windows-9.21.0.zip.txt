@@ -1,0 +1,2 @@
+The tap-windows-9.21.0.zip file is just a dummy file used to temporarily fool 
+openvpn-build to build tap-windows6 -enabled version of the installer.

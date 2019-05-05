@@ -1,0 +1,18 @@
+Notes regarding the tap-windows-9.21.0.exe
+------------------------------------------
+
+This installer contains an NDIS 6 -compatible tap-windows driver. As such, it 
+will not work on Windows XP (which only supports NDIS 5), but should work just 
+fine on Windows Vista and above.
+
+The installer will replace existing (NDIS 5) drivers. As this tap-windows6 (NDIS 
+6) driver has _not_ been extensively tested yet it's probably best not to 
+install it on critical production systems quite yet. If you experience any 
+problems with this driver or the installer please file a bug report here:
+
+<https://community.openvpn.net/openvpn/report>
+
+Remember to create a user account first. Alternatively contact OpenVPN 
+developers directly:
+
+<https://community.openvpn.net/openvpn/wiki/GettingHelp#OpenVPNOSSdevelopersupport>
